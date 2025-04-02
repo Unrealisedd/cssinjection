@@ -1,4 +1,4 @@
-# ExfilX: CSS Injection Data Exfiltration Tool
+# ExfilX: CSS Injection Data Exfiltration Tool - WORK IN PROGRESS: NOT FINISHED.
 
 ExfilX is a tool designed to test for CSS-based data exfiltration vulnerabilities in web applications. It demonstrates how malicious CSS can be used to extract sensitive data from vulnerable web pages using DNS or WebSocket techniques.
 
@@ -91,29 +91,6 @@ To protect against CSS-based data exfiltration:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-## 12. Initialize the package directories
-
-```python:__init__.py
-# ExfilX main package
-```
-
-```python:exfiltration/__init__.py
-# Exfiltration methods package
-```
-
-```python:payloads/__init__.py
-# CSS payloads package
-```
-
-```python:server/__init__.py
-# Server components package
-```
-
-```python:utils/__init__.py
-# Utility functions package
-```
 
 ## How to Use the Tool
 
